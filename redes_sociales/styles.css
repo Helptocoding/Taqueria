@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    
+}
+
+
+/* Estilos para los títulos */
+h1, h2 {
+    font-size: 2.5em;
+    color: #FF4500;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+/* Estilos para los párrafos */
+p {
+    font-size: 1.1em;
+    color: #000000;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #333;
+    color: #000000;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #d35400;
+}
+
+/* Contenido de la página */
+.contenido {
+    padding: 20px;
+}
+
+/* Estilos generales */
+#redes-sociales {
+    background-color: #f4f4f9;
+    padding: 60px 0;
+    text-align: center;
+    color: #333;
+  }
+  
+  #redes-sociales .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  #redes-sociales .titulo {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  #redes-sociales .descripcion {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+  
+  #redes-sociales .redes-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  #redes-sociales .card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #redes-sociales .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  #redes-sociales .card .icono {
+    font-size: 3rem;
+    color: #fff;
+    background-color: #333;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+  }
+  
+  #redes-sociales .card .contenido h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  #redes-sociales .card .contenido p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  #redes-sociales .card .btn-ver {
+    background-color: #E1306C;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  #redes-sociales .card .btn-ver:hover {
+    background-color: #c81d5b;
+  }
+  
+  /* Estilos específicos para cada red social */
+  #redes-sociales .card.instagram .icono {
+    background-color: #E1306C;
+  }
+  
+  #redes-sociales .card.facebook .icono {
+    background-color: #3b5998;
+  }
+  
+  #redes-sociales .card.twitter .icono {
+    background-color: #1DA1F2;
+  }
+  
+  #redes-sociales .card.tiktok .icono {
+    background-color: #000;
+  }
+  
+  #redes-sociales .hashtag {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  #redes-sociales .hashtag strong {
+    color: #E1306C;
+  }
+  
