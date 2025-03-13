@@ -216,3 +216,60 @@ textarea:hover {
     color: #999;
     font-style: italic;
 }
+
+.faq-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-container h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilos de las preguntas */
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.faq-question i {
+    margin-right: 10px;  /* Espacio entre el ícono y el texto */
+    font-size: 1.4em;
+}
+
+.faq-answer {
+    font-size: 1em;
+    line-height: 1.5;
+    padding-left: 30px;  /* Alineación de la respuesta */
+}
+
+/* Estilo para el texto de contacto */
+.faq-contact {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 40px;
+}
+
+.faq-contact-info {
+    text-align: center;
+    font-size: 1em;
+    color: #555;
+}
+
+#Preguntas_frec .hashtag strong {
+    color:#FF4500
+}
