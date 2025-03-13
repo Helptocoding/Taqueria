@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
             }
+        });
     }, {
         threshold: 0.3 // Se activa cuando el 30% de la carta esté visible
     });
@@ -21,5 +22,4 @@ document.addEventListener('DOMContentLoaded', () => {
             alert(`¡Has ordenado: ${productName}! Gracias por tu compra.`);
         });
     });
-});
 });
